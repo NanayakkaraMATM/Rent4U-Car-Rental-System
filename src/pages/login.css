@@ -1,0 +1,440 @@
+body{
+	color: #bcc0c8;
+}
+
+.login-wrap{
+	width:100%;
+	margin-left: 40%;
+	max-width:525px;
+	min-height:680px;
+	position:relative;
+	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+	box-shadow:0 15px 18px 0 rgba(0,0,0,.24),0 20px 56px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100%;
+	margin:auto;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(236, 176, 91, 0.9);
+}
+
+.zt{
+	color: #000;
+	font-size: 20px;
+	font-weight: 600;
+    background-image: url("../images/log.jpg");
+	background-size: cover;
+
+  
+
+	
+}
+.l1{
+	color: rgb(29, 91, 95);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 29px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+	font-style: calc(2px);
+}
+
+.l2{
+	color: rgb(18, 20, 20);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 700;
+	font-style: calc(2px);
+	margin-left: -35%;
+}
+
+.hw1{
+	color: rgb(152, 18, 18);
+	margin-left: 25%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-style: oblique;
+	text-decoration: double;
+	text-shadow: #7e8296;
+}
+
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:32px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+
+ .sign-in:checked + .tab,
+ .sign-up:checked + .tab{
+	color:rgb(214, 136, 136);
+	border-color:#16305c;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+ .group .label,
+ .group .input,
+ .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+
+.label1{
+	width: 2%;
+	margin-left: 30%;
+}
+
+ .group .input,
+.login-form .group .button{
+	border:none;
+	padding:25px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+ .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+ .group .label{
+	color:rgb(13, 6, 36);
+	font-size:25px;
+}
+ .group .button{
+	background:#075df0;
+	width: 145px;
+	margin-left: 33%;
+	border-radius:10px;
+	padding: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+} 
+.button:hover {
+	background-color: #3dcbdb; 
+	color: whitesmoke;
+  }
+ .group label .icon{
+	width:25px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+ .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:1px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+ .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+ .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+ .group .check:checked + label{
+	color:#fff;
+}
+ .group .check:checked + label .icon{
+	background:#1e2b42;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+
+.foot{
+	font-weight: 700;
+	color: rgb(41, 26, 129);
+	font-family: 'Times New Roman', Times, serif;
+}
+.foot:hover{
+	color: #000;
+}
+
+.body1{
+    background-image: linear-gradient(to right, rgb(196, 140, 20),rgb(255, 211, 16),rgb(231, 180, 40),rgb(196, 140, 20)); 
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+.bb{
+    background-image: url("../images/reg.jpg");
+	background-size: cover;
+	color: rgb(21, 20, 20);
+
+}
+
+.bx{
+	background-image: url("../images/carpro.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.create{
+	width: 48%;
+	height: 65%;
+	background-color: #fb9701;
+	margin-left: 23%;
+	opacity: 0.85;
+	color: rgb(29, 42, 61);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+	font-size: 22px;
+    
+}
+
+.createpro{
+	width: 30%;
+	height: 45%;
+	background-color: #d0a266;
+	opacity: 0.7;
+	margin-left: 34%;
+	font-size: 22px;
+    
+}
+.inputpro{
+	width: 2px;
+	height: 3px;
+	
+}
+.labelpro{
+	text-align: left;
+	color: #000;
+	margin-left: 5%;
+}
+.submitpro{
+	width: 94px;
+	height: 50px;
+	margin-left: 22%;
+	background-color: #1e2b42;
+	color: #bcc0c8;
+	cursor: pointer;
+}
+
+.submitpro:hover {
+	opacity:1;
+	color: #23a2f6;
+  }
+
+.label{
+	color: #000;
+	margin-right: 12%;
+	text-align: center;
+}
+.h0{
+
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	font-style: oblique;
+	margin-left: 2%;
+}
+.ho{
+	font-size: larger;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 800;
+	text-align: center;
+	font-style: oblique;
+	margin-left: 2%;
+}
+.field{
+	margin-left: 13%;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 22px;
+	border-radius: 7px solid black;
+}
+.input{
+	background-color: #d7cebb;
+	width: 60%;
+	border-radius: 7px;
+	border: #000;
+	color: rgb(38, 24, 237);
+}
+.field
+    .input{
+	
+	background-color: #d7cebb;
+	width: 60%;
+	height: 53px;
+	border-radius: 7px solid black;
+	
+
+}
+.para{
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -30px;
+    bottom: -80px;
+}
+
+
+.cons{
+    background-color: #7e8296;
+    width: 40%;
+    height: 40%;
+    margin-left: 33%;
+}
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border-color: #3dcbdb;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline-color: #000;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #f6590a;
+  color: white;
+  font-size: 20px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  margin-left: 10%;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+  color: #000;
+}
+
+/* Add a blue text color to links */
+a {
+  color: rgba(30, 143, 255, 0.614);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  height: 80px;
+  font-style: oblique;
+  font-size: 20px;
+  }
+
+.logincon{
+	margin-left: 56%;
+	
+	opacity: 0.8;
+	width: 34%;
+	
+}
+.btn{
+background-color: #1e2b42;
+color: #000;
+margin-left: 42%;
+}
+.xx{
+	margin-left: 14%;
+}
+    
+    
+
+
+
+

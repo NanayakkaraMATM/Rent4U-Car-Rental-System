@@ -1,0 +1,420 @@
+.bodya{
+    background-image: linear-gradient(to right, rgb(196, 140, 20),rgb(255, 211, 16),rgb(231, 180, 40),rgb(196, 140, 20)); 
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.b{
+    background-image: url("../images/p0.jpg.crdownload");
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boo{
+    background-image: url("../images/book.png");
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boo1{
+    background-color: antiquewhite;
+    opacity: 0.8;
+    width:60%;
+    margin-left: 19%;
+}
+.boo2{
+    color: #24185a;
+    font-size: 27px;
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+}
+.boo3{
+    color: #24185a;
+    font-size: 24px;
+    font-style: oblique;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.boo4{
+    color: #1f1d25;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+}
+.boo5{
+    width: 20%;
+    height: 7%;
+    margin-left: 1%;
+}
+.b006{
+    width:27%;
+    height: 14%;
+    margin-left: 40%;
+    background-color: #3913e6;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Verdana, Geneva, Tahoma, sans-serif, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.box1{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+
+.hel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-variant: normal;
+    color: #24185a;
+    text-align: center;
+  }
+
+  .hello{
+      text-align: center;
+  }
+
+  .details{
+      text-align: center;
+      margin-left: 40%;
+  }
+.jh{
+    background-color: #c1bdd0;
+    width: 70%;
+    margin-left: 15%;
+    opacity: 0.8;
+}
+  .jj{
+      font-size: 26px;
+      color: #000;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-left: 2%;
+  }
+  .j2{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+      font-size: 20px;
+      color: #000;
+      margin-left: 3%;
+      margin-right: 3%;
+  }
+
+  .button1{
+      width: 10%;
+      height: 7%;
+      background-color: #eca710;
+      margin-left: 80%;
+  }
+
+.view{
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;  
+    background-color: #f0a210;
+    border-radius: 5px;
+    height: 135%;
+   
+    }
+    
+    .view:hover {background-color: #fc0606}
+    
+    .view:active {
+    background-color: #eca710;
+    box-shadow: 0 5px rgb(236, 186, 112);
+    transform: translateY(2px);
+    }
+    .first{
+        background-color: #eca710;
+        padding: 75px 65px;
+    }
+    .f1{
+        margin-left: 5%;
+      
+    }
+    .ki{
+        border: #241b1b;
+    }
+    .ki:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    
+     .xy{
+        width: 88%;
+    }
+    .heading{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-variant: small-caps;
+        font-style: oblique;
+        margin-left: 340px;
+    }
+    .head3{
+        font-family:'Courier New', Courier, monospace;
+        font-variant:initial;
+        font-size: 45px;
+        margin-top: -60px;
+        margin-left: 600px;
+    }
+    .dcar{
+        width: 100%;
+        height: -810%;
+        cursor: pointer;
+
+    }
+    .dcar:hover{
+        background-color: #241b1b;
+        
+    }
+    
+.cartab{
+    margin-left: 18%;
+}
+    table, th, td {
+        border: 2px solid white;
+        border-collapse: collapse;
+      }
+      th, td {
+        background-color: #e7a10a;
+      }
+
+
+
+.bodya{
+    background-image: linear-gradient(to right, rgb(196, 140, 20),rgb(255, 211, 16),rgb(231, 180, 40),rgb(196, 140, 20)); 
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.b{
+    background-image: url("../images/p0.jpg.crdownload");
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boo{
+    background-image: url("../images/book.png");
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boo1{
+    background-color: antiquewhite;
+    opacity: 0.8;
+    width:60%;
+    margin-left: 19%;
+}
+.boo2{
+    color: #24185a;
+    font-size: 27px;
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+}
+.boo3{
+    color: #24185a;
+    font-size: 24px;
+    font-style: oblique;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.boo4{
+    color: #1f1d25;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+}
+.boo5{
+    width: 20%;
+    height: 7%;
+    margin-left: 1%;
+}
+.b006{
+    width:27%;
+    height: 14%;
+    margin-left: 40%;
+    background-color: #3913e6;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Verdana, Geneva, Tahoma, sans-serif, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.box1{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+
+.hel{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-variant: normal;
+    color: #24185a;
+    text-align: center;
+  }
+
+  .hello{
+      text-align: center;
+  }
+
+  .details{
+      text-align: center;
+      margin-left: 40%;
+  }
+.jh{
+    background-color: #c1bdd0;
+    width: 70%;
+    margin-left: 15%;
+    opacity: 0.8;
+}
+  .jj{
+      font-size: 26px;
+      color: #000;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-left: 2%;
+  }
+  .j2{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: italic;
+      font-size: 20px;
+      color: #000;
+      margin-left: 3%;
+      margin-right: 3%;
+  }
+
+  .button1{
+      width: 10%;
+      height: 7%;
+      background-color: #eca710;
+      margin-left: 80%;
+  }
+
+.view{
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;  
+    background-color: #f0a210;
+    border-radius: 5px;
+    height: 135%;
+   
+    }
+    
+    .view:hover {background-color: #fc0606}
+    
+    .view:active {
+    background-color: #eca710;
+    box-shadow: 0 5px rgb(236, 186, 112);
+    transform: translateY(2px);
+    }
+    .first{
+        background-color: #eca710;
+        padding: 75px 65px;
+    }
+    .f1{
+        margin-left: 5%;
+      
+    }
+    .ki{
+        border: #241b1b;
+    }
+    .ki:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    
+     .xy{
+        width: 88%;
+    }
+    .heading{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-variant: small-caps;
+        font-style: oblique;
+        margin-left: 340px;
+    }
+    .head3{
+        font-family:'Courier New', Courier, monospace;
+        font-variant:initial;
+        font-size: 45px;
+        margin-top: -60px;
+        margin-left: 600px;
+    }
+    .dcar{
+        width: 100%;
+        height: -810%;
+        cursor: pointer;
+
+    }
+    .dcar:hover{
+        background-color: #241b1b;
+        
+    }
+    
+.cartab{
+    margin-left: 18%;
+}
+    table, th, td {
+        border: 2px solid white;
+        border-collapse: collapse;
+      }
+      th, td {
+        background-color: #e7a10a;
+      }
+
+
+
+
+
+
+
+.img{
+    width: 20%;
+    cursor: pointer;
+    text-align: center;  
+    background-color: #f0a210;
+    transition: transform 3s;
+    perspective: 30%;
+
+}
+.img:hover{
+    background-color: #eca710;
+    transform: translateZ(20px);
+    
+}
+
+
+
+
+
+
+
+.img{
+    width: 20%;
+    cursor: pointer;
+    text-align: center;  
+    background-color: #f0a210;
+    transition: transform 3s;
+    perspective: 30%;
+
+}
+.img:hover{
+    background-color: #eca710;
+    transform: translateZ(20px);
+    
+}
+
+
+

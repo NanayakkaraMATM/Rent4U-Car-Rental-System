@@ -1,0 +1,39 @@
+.bb{
+    background-image: url("../images/reg.jpg");
+	background-size: cover;
+	color: rgb(21, 20, 20);
+
+}
+.create{
+	width: 48%;
+	height: 65%;
+	background-color: #fb9701;
+	margin-left: 23%;
+	opacity: 0.85;
+	color: rgb(29, 42, 61);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+	font-size: 22px;
+    
+}
+.h0{
+
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	font-style: oblique;
+	margin-left: 2%;
+}
+.ho{
+	font-size: larger;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 800;
+	text-align: center;
+	font-style: oblique;
+	margin-left: 2%;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+

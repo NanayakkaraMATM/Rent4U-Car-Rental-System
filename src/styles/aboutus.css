@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,300;1,500;1,600;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+
+
+.bodyp {
+  /* background-image: url("../images/book.png"); */
+  background-color: #01002a;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.para1 {
+    
+    margin-left: 50px;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+.para2 {
+    
+    margin-left: 50px;
+    color: #c4c4c4;
+
+}
+
+.para3 {
+    
+    margin-left: 50px;
+    color: aliceblue;
+    margin-bottom:50px;
+
+}
+
+
+
+.container1{
+    background-image: url("../images/back1.jpg");
+}
